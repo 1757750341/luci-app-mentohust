@@ -9,7 +9,7 @@ function index()
     end
     entry({"admin", "services", "mentohust"},
         alias("admin", "services", "mentohust", "general"),
-        _("MentoHUST"), 10).dependent = true
+        _("锐捷认证"), 10).dependent = true
 
     entry({"admin", "services", "mentohust", "general"}, cbi("mentohust/general"), _("MentoHUST Settings"), 10).leaf = true
     entry({"admin", "services", "mentohust", "log"}, cbi("mentohust/log"), _("MentoHUST LOG"), 20).leaf = true
